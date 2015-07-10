@@ -6,7 +6,6 @@ body{
 #wrapper{
     width: 1024px;
     margin: 0 auto;
-    background: red;
     
 }
 #about{
@@ -45,8 +44,9 @@ body{
 }
 #component{
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto;
     background: white;
+    border-radius: 6px;
 }
 #component img.center{
     margin-left: 32px;
