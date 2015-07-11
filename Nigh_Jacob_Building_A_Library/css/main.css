@@ -49,7 +49,8 @@ body{
     border-radius: 6px;
 }
 #component img.center{
-    margin-left: 32px;
+    display: block;
+    margin: 0 auto;
 }
 #component h2.header{
     padding-top: 20px;
@@ -67,4 +68,7 @@ body{
 #component p{
     width: 960px;
     margin-left: 32px;
+}
+#component p.bottom{
+    padding-bottom: 25px;
 }
