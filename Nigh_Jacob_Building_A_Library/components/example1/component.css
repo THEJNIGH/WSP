@@ -5,4 +5,29 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
+    section{
+        background: #333;   
+    }
+    section::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .wrapper{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #features{
+        float: left;
+        width: calc(100%/3*2); 
+    }
+
+    #topgames{
+        float: left;
+        width: calc(100%/3);
+        padding: 2rem;
+    }
+    img{
+        max-width: 100%;
+    }
 /* HEADER ======================================== */

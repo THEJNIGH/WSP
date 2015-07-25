@@ -4,5 +4,68 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+html{
+    font-size: 62.5%;   
+}
+body{
+    font: 300 1.6em/1 arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+label{
+    display: none;
+}
+input{
+    border: 1px solid #ccccce;
+    border-radius: 3px;
+    padding: .5rem;
+    display: block;
+    margin: 1rem 0 1rem 0;
+}
+h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3f6da1;
+    margin-bottom: 2rem;
+}
+button{
+    background: #3f6da1;
+    border-radius: 3px;
+    padding: .6rem;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #497dac;
+}
+p ~ section:first-of-type{
+    border-right: 1px solid #ccccce;
+}
+section section {
+    float: left;  
+    width: 50%;    
+    padding: 4rem;
+}
 
+input[type="checkbox"]{
+    display: inline-block;   
+}
+input[type="checkbox"] ~ label {
+    display: inline-block;
+    font-size: 1.25rem;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    width: 100%;   
+}
+
+section > p:last-of-type{
+    clear: both;
+    color: #ccccce;
+    font-size: 1.2rem;
+}
+section > p:first-of-type{
+    
+}
 /* HEADER ======================================== */

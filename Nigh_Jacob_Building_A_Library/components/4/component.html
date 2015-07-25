@@ -9,17 +9,36 @@
 
 	<!-- Component -->
     <section>
-        <p><a href="">Exit</a></p>
+        <p><a href="exit.html">Exit</a></p>
         <section>
             <h2>Create a new account</h2>
             <form>
+                
+                <label>username</label>
                 <input type="text" name="username" placeholder="choose a username">
+                
+                <label>password</label>
                 <input type="password" name="password" placeholder="password">
+                
+                <label>verify password</label>
                 <input type="password" name="vpassword" placeholder="verify password">
+                
+                <label>email</label>
                 <input type="email" name="username" placeholder="email(optional)">
-                <input type="checkbox" name="rememberme" value="rememberme">remember me
-                <input type="checkbox" name="newsletter" value="newsletter">get the best of reddit emailed to you once a week. <a href="">learn more</a>
-                <button type="submit">Create Account</button>
+                
+                
+                <p>
+                    <input id="rememberme" type="checkbox" name="rememberme" value="rememberme">
+                    <label for="rememberme">remember me</label>
+                </p>
+                <label>newsletter</label>
+                
+                <p>
+                    <input id="newsletter" type="checkbox" name="newsletter" value="newsletter">
+                    <label for="newsletter">get the best of reddit emailed to you once a week. <a href="">learn more</a></label>
+                </p>
+                
+                    <button type="submit">Create Account</button>
             </form>
         </section>
         <section>
@@ -27,7 +46,7 @@
             <form>
                 <input type="text" name="username" placeholder="username">
                 <input type="password" name="password" placeholder="password">
-                <input type="checkbox" name="rememberme" value="rememberme">remember me
+                <p><input type="checkbox" name="rememberme" value="rememberme">remember me</p>
                 <button type="submit">Sign in</button>
             </form>
             <p><a href="">reset password</a></p>

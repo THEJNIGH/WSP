@@ -5,4 +5,68 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
+
+html{
+    font-size: 62.5%;   
+}
+
+body{
+    font: 300 1.6em/1.4 sans-serif;
+    background: #bdc3c7;
+    color: #777;
+}
+footer{
+    max-width: 100%;
+    background: #000;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+nav{
+    width:70%;
+    margin: 0 auto;
+    position: relative
+}
+li{
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: .5rem;
+}
+
+li:last-of-type{
+    padding-left: 5rem;   
+}
+li:first-of-type{
+    padding-left: 6rem;
+}   
+img{
+    max-width: 100%;
+    padding-right: 2rem;
+    position: absolute;
+    height: 24px;
+    top: .6rem;
+    left: 2rem;
+}
+p{
+    padding-top: .6rem;  
+    padding-left: 5.5rem;
+    font-size: 1.25rem;
+}
+form{
+    width: 10%;   
+}
+a:link {
+    color: #FFF;
+}
+a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FFF;
+}
+
 /* HEADER ======================================== */
