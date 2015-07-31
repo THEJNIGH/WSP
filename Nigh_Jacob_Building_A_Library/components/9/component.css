@@ -6,3 +6,30 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+html{
+    font-size: 62.5%;   
+}
+body{
+    font: 300 1.6em/1 arial, sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+section{
+    width: 100%;
+}
+article::after{
+    content: "";
+    display: block;
+    clear: both;   
+}
+article p{
+    display: none;
+}
+article:first-of-type{
+    width: 30%;
+}
+article{
+    float: left;
+    margin-left: 1rem;
+    width: calc(23% - 1rem);
+}

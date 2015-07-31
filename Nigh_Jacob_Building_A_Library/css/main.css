@@ -42,37 +42,37 @@ body{
     bottom: 225px;
     
 }
-#component{
+section{
     width: 100%;
     margin: 20px auto;
     background: white;
     border-radius: 6px;
 }
-#component img.center{
+section img.center{
     display: block;
     margin: 0 auto;
 }
-#component h2.header{
+section h2.header{
     padding-top: 20px;
     margin-left: 50px;
     margin-bottom: 40px;
     font-size: 2.1em;
 }
-#component h3.title{
+section h3.title{
     text-indent: 50px;
     font-size: 1.25em;
     font-weight: bold;
     margin-bottom: 15px;
     margin-top: 30px;
 }
-#component p{
+section p{
     width: 960px;
     margin-left: 32px;
 }
-#component p.bottom{
+section p.bottom{
     padding-bottom: 25px;
 }
-#wrapper :nth-child(2){
+#wrapper:nth-child(2){
     margin-top: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;

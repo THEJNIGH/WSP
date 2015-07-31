@@ -92,4 +92,34 @@ article p{
     padding: 0 1rem 2rem 1rem;
     width: 100%;
 }
+article:nth-of-type(1){
+    background: transparent url("images/compass.png") no-repeat;
+    background-size: 40%;
+    background-position: 10% 40%;
+}
+
+article:nth-of-type(2){
+    background: transparent url("images/community.png") no-repeat;
+    background-size: 50%;
+}
+
+article:nth-of-type(3){
+    background: transparent url("images/ruler.png") no-repeat;
+    background-size: 50%;
+}
+
+article:nth-of-type(4){
+    background: transparent url("images/contact.png") no-repeat;
+    background-size: 50%;
+}
+
+article:nth-of-type(5){
+    background: transparent url("images/jobs.png") no-repeat;
+    background-size: 50%;
+}
+
+article:nth-of-type(6){
+    background: transparent url("images/us.png") no-repeat;
+    background-size: 50%;
+}
 /* HEADER ======================================== */
