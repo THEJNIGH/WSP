@@ -1,0 +1,99 @@
+/* 
+================================================================================
+COMPONENT STYLESHEET
+================================================================================ */
+
+/* HEADER ======================================== */
+
+html{
+    font-size: 62.5%;   
+}
+body{
+    font: 300 1.6em/1.4 sans-serif;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid #d4d4d4;
+    border-radius: 5px;
+    padding: 1.5rem;
+    position: relative;
+}
+h2{
+    font-size: 2.5rem; 
+    font-weight: 600;
+    color: #3b5998;
+    border-bottom: 2px solid #cdcdcd;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+p button{
+    background: #3b5998;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    padding: .75rem;
+    font-size: 1.25rem;
+}
+label{
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+input{
+    border: 1px solid #dfe3ee;   
+}
+
+p a[href*="signup"]{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p a[href*="forgot"]{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+form{
+    width: 40%;
+    margin: 0 auto;
+}
+label:nth-of-type(1), input:nth-of-type(1){
+    margin-top: 3rem;   
+}
+label:nth-of-type(2){
+    padding-right: 3.8rem;
+    margin-top: 1rem;
+}
+input:nth-of-type(2){
+    margin-top: 1rem; 
+}
+label:nth-of-type(3){
+    display: none;   
+}
+input:nth-of-type(3){
+    margin-left: 11.9rem;
+}
+p:nth-of-type(1){
+    margin-left: 11.9rem;
+    margin-top: -1rem;
+}
+p:nth-of-type(2), p:nth-of-type(3){
+    margin-top: 1rem;
+    margin-left: 11.9rem;
+}   
+a:link {
+    color: #3b5998;
+}
+a:visited {
+    color: #3b5998;
+}
+
+a:hover {
+    color: #3b5998
+}
+
+a:active {
+    color: #3b5998;
+}
+
+
+
+/* HEADER ======================================== */

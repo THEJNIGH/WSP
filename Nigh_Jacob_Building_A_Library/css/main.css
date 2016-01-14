@@ -1,0 +1,79 @@
+body{
+    background: grey;
+    padding: 0;
+    font-family: "Helvetica Neue Light", sans-serif;
+}
+#wrapper{
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+#about{
+    width: 100%;
+    margin: 0 auto;
+    height: 440px;
+    background: white;
+}
+#about img{
+    margin-left: 4.882%;
+    margin-bottom: 10px;
+}
+#about h2{
+    position: relative;
+    top: 30px;
+    left: 650px;
+    font-weight: bold;
+    font-size: 2.1em;
+    display: block;
+    width: 250px; 
+}
+#about h2.bottom{
+    position: relative;
+    top: -85px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 1.8em;
+    width: 300px;
+}
+#about p{
+    width: 48.8281%;
+    position: relative;
+    left: 435px;
+    bottom: 225px;
+    
+}
+section{
+    width: 100%;
+    margin: 20px auto;
+    background: white;
+    border-radius: 6px;
+}
+section img.center{
+    display: block;
+    margin: 0 auto;
+}
+section h2.header{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-size: 2.1em;
+}
+section h3.title{
+    text-indent: 50px;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+section p{
+    width: 960px;
+    margin-left: 32px;
+}
+section p.bottom{
+    padding-bottom: 25px;
+}
+#wrapper:nth-child(2){
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

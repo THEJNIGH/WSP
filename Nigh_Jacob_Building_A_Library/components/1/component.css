@@ -1,0 +1,119 @@
+/* 
+================================================================================
+COMPONENT STYLESHEET
+================================================================================ */
+
+/* HEADER ======================================== */
+
+html{
+    font-size: 62.5%;   
+}
+
+body{
+    font: 300 1.6em/1 sans-serif;
+}
+
+header{
+    background: #333333;
+    max-width: 100%;
+}
+nav{
+    width: 1240px;
+    margin: 0 auto;
+}
+ul, form, li, h1{
+    display: inline-block;
+    margin-right: -4px;
+}
+a{
+    display: block;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    border-right: 1px solid #111;
+}
+li{
+    font-size: 1.5rem;
+}
+input{
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+form{
+    position: relative;
+    width: 52%;
+    margin-left: 2rem;
+    margin-right: .2rem;
+}
+button{
+    position: absolute;
+    top: 6px;
+    right: 1px;
+    background: transparent url("images/search.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 50%;
+    width: 50px;
+    text-indent: -9999px;
+    border: none;
+}
+li a[href*="message"], li a[href*="notifications"], li a[href*="more"]{
+    width: 46px;   
+}
+h1 a{
+    background: url("images/logo.png") no-repeat;
+    background-size: cover;
+    width: 69px;
+    height: 46px;
+    text-indent: -9999px;
+    
+}
+ul:nth-of-type(2) li a{
+    border: none;   
+}
+a[href*="notifications"]{
+    background: transparent url("images/notifications.png") no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
+    text-indent: -9999px;
+    border: none;
+}
+a[href*="message"]{
+    background: transparent url("images/messages.png") no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
+    text-indent: -9999px;
+    border: none;
+}
+a[href*="more"]{
+    background: transparent url("images/more.png") no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
+    text-indent: -9999px;
+    border: none;
+}
+a[href*="stream"]{
+    background: #111111;   
+}
+
+a:link{
+    color: #BCBCBC;
+}
+
+a:visited{
+    color: #BCBCBC;
+}
+
+a:hover{
+    color: #FFF;
+}
+
+a:active{
+    color: #FFF;
+}
+a[href*="profile"]{
+    padding-left: 30px;
+    background: transparent url("images/user.png") no-repeat;
+    background-position: 0% 50%;
+    background-size: 30%;
+}
+/* HEADER ======================================== */
